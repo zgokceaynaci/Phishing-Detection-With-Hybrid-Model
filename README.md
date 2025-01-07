@@ -40,8 +40,8 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hybrid-phishing-detection-tool.git
-   cd hybrid-phishing-detection-tool
+   git clone https://github.com/zgokceaynaci/Phishing-Detection-With-Hybrid-Model.git
+   cd Phishing-Detection-With-Hybrid-Model
 
 2. Install Dependencies:
    ```bash
