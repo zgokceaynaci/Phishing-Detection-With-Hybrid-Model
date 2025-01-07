@@ -86,15 +86,18 @@ The final merged dataset used in this project is **not included** in this reposi
     python import pandas as pd 
 
 # Load individual datasets 
-
-email_dataset = pd.read_csv("datasets/Phishing_Email.csv") 
-site_urls_dataset = pd.read_csv("datasets/phishing_site_urls.csv") 
-phishing_emails_dataset = pd.read_csv("datasets/phishing_emails.csv") 
+    ```
+    email_dataset = pd.read_csv("datasets/Phishing_Email.csv") 
+    site_urls_dataset = pd.read_csv("datasets/phishing_site_urls.csv") 
+    phishing_emails_dataset = pd.read_csv("datasets/phishing_emails.csv") 
 
 # Merge datasets (modify as needed) 
-merged_dataset = pd.concat([email_dataset, site_urls_dataset, phishing_emails_dataset], ignore_index=True) 
+    ```
+    merged_dataset = pd.concat([email_dataset, site_urls_dataset, phishing_emails_dataset], ignore_index=True) 
 
-# Save the merged dataset merged_dataset.to_csv("datasets/final_dataset.csv", index=False)
+# Save the merged dataset 
+    ```
+    merged_dataset.to_csv("datasets/final_dataset.csv", index=False)
 
    
 ---
