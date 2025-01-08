@@ -102,10 +102,6 @@ The final merged dataset used in this project is **not included** in this reposi
    
 ---
 
-## 🎯 How It Works
-Input: Enter email content in the provided text box.
-Processing: The hybrid model analyzes the content using a combination of machine learning and deep learning algorithms.
-Output: The tool displays results as either Spam or Not Spam.
 🎯 How It Works
 Input: Enter email content in the provided text box.
 Processing: The hybrid model analyzes the content using a combination of machine learning algorithms (e.g., Logistic Regression, Random Forest) and deep learning techniques (e.g., GloVe embeddings).
