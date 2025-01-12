@@ -18,6 +18,7 @@ datasets/
 models/voting_model.pkl
 models/random_forest_model.pkl
 models/extra_trees_model.pkl
+
 .venv/
 __pycache__/
 .DS_Store
